@@ -63,6 +63,14 @@ minetest.register_node("fl_materials:iron_brute",{
     sounds = default.node_sound_stone_defaults()
 })
 
+minetest.register_node("fl_materials:silver_brute",{
+
+    description = "Silver brute block",
+    tiles = {"silver_brute.png"},
+    groups = {cracky = 1},
+    sounds = default.node_sound_stone_defaults()
+})
+
 minetest.register_node("fl_materials:gold_brute",{
 
     description = "Gold brute block",
@@ -71,9 +79,9 @@ minetest.register_node("fl_materials:gold_brute",{
     sounds = default.node_sound_stone_defaults()
 })
 
-local recipes = {"default:copper_lump","default:iron_lump","default:gold_lump"}
-local material = {"fl_materials:copper_brute","fl_materials:iron_brute","fl_materials:gold_brute"}
-local ingots = {"default:copper_ingot","default:steel_ingot","default:gold_ingot"}
+local recipes = {"default:copper_lump","default:iron_lump","default:gold_lump","moreores:silver_lump"}
+local material = {"fl_materials:copper_brute","fl_materials:iron_brute","fl_materials:gold_brute","fl_materials:silver_brute"}
+local ingots = {"default:copper_ingot","default:steel_ingot","default:gold_ingot","moreores:silver_ingot"}
 local i = 1
 
 for recipes, v in pairs(recipes) do 
