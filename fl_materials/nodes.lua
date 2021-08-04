@@ -3,6 +3,7 @@
 minetest.clear_craft({type = "cooking", recipe ="default:iron_lump"})
 minetest.clear_craft({type = "cooking", recipe ="default:copper_lump"})
 minetest.clear_craft({type = "cooking", recipe ="default:gold_lump"})
+minetest.clear_craft({type = "cooking", recipe ="moreores:silver_lump"})
 
 
 
