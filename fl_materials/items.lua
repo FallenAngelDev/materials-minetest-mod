@@ -18,6 +18,11 @@ minetest.register_craftitem("fl_materials:gold_coin", {
     description = "Gold Coin",
     inventory_image = "gold_coin.png"
 })
+minetest.register_craftitem("fl_materials:bone",{
+
+    description = "bone",
+    inventory_image = "fl_bone.png"
+})
 
 minetest.register_craftitem("fl_materials:meteorite_fragment",{
 

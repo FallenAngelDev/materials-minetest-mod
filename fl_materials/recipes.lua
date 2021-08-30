@@ -7,7 +7,7 @@ minetest.clear_craft({type = "cooking", recipe ="moreores:silver_lump"})
 minetest.clear_craft({type = "cooking", recipe ="moreores:mithril_lump"})
 
 local v = "fl_materials:meteorite_ingot"
-local b = "mobs_mc:bone"
+local b = "fl_materials:bone"
 local i = "default:stick"
 
 minetest.register_craft({

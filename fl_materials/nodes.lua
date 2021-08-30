@@ -53,7 +53,7 @@ minetest.register_node("fl_materials:stone_fossil",{
              items = {"fl_materials:fossil"}
             },
             {rarity = 1, 
-            items = {"mobs_mc:bone"}
+            items = {"fl_materials:bone"}
             }
           }
         },

@@ -63,7 +63,7 @@ minetest.register_node("fl_ruins:jar2",{
     on_destruct = function(pos)
           local probabily = math.random(0,1)
               if probabily < 1 then
-                 minetest.add_entity(pos, "mobs_mc:zombie",staticdata)
+                 minetest.add_entity(pos, "animalia:wolf",staticdata)
             end
      end,
 
